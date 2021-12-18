@@ -110,7 +110,7 @@ class RSAKeyManager: RSAKeyManagerProtocol {
     
     func encrypt(_ data: Data) -> Data? {
         guard let privateKey = getPublicKey() else {
-            print("encrypt() - privateKey could not be recovered")
+            print("encrypt() - publicKey could not be recovered")
             return nil
         }
         

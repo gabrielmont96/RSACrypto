@@ -62,16 +62,13 @@
 		94907D5026AA321300F6A091 /* RSACrypto */ = {
 			isa = PBXGroup;
 			children = (
+				9494AC4C276E87F0009A059C /* Resource */,
+				9494AC4B276E87D9009A059C /* ViewController */,
 				9494AC48276E829C009A059C /* Factory */,
 				9494AC47276E825B009A059C /* KeyManager */,
 				94907D5126AA321300F6A091 /* AppDelegate.swift */,
 				94907D5326AA321300F6A091 /* SceneDelegate.swift */,
-				94907D5526AA321300F6A091 /* RSAKeysViewController.swift */,
-				94907D5726AA321300F6A091 /* Main.storyboard */,
-				94907D5A26AA321500F6A091 /* Assets.xcassets */,
-				94907D5C26AA321500F6A091 /* LaunchScreen.storyboard */,
 				94907D5F26AA321500F6A091 /* Info.plist */,
-				94907D7326AA57AB00F6A091 /* EncryptionViewController.swift */,
 			);
 			path = RSACrypto;
 			sourceTree = "<group>";
@@ -90,6 +87,25 @@
 				94907D7826AA665B00F6A091 /* RSAKeyPairFactory.swift */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		9494AC4B276E87D9009A059C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				94907D5526AA321300F6A091 /* RSAKeysViewController.swift */,
+				94907D7326AA57AB00F6A091 /* EncryptionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9494AC4C276E87F0009A059C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				94907D5C26AA321500F6A091 /* LaunchScreen.storyboard */,
+				94907D5726AA321300F6A091 /* Main.storyboard */,
+				94907D5A26AA321500F6A091 /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
